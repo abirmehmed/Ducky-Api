@@ -1,0 +1,32 @@
+{
+  "flock": [
+    {
+      "date": "2026-08-22",
+      "females": 34,
+      "males": 1,
+      "laying": true,
+      "note": "Khaki Campbell layers"
+    },
+    {
+      "date": "2026-08-22",
+      "females": 11,
+      "males": 0,
+      "laying": false,
+      "note": "Young ones — start in ~2 months"
+    }
+  ],
+  "eggs": [
+    {
+      "id": 1787334066740,
+      "date": "2026-08-21",
+      "count": 21
+    },
+    {
+      "id": 1787335229368,
+      "date": "2026-08-21",
+      "count": 20
+    }
+  ],
+  "expenses": [],
+  "sales": []
+}
