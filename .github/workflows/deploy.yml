@@ -1,0 +1,12 @@
+name: auto-deploy
+on:
+  push:
+    branches: [main]
+jobs:
+  poke-render:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Render deploy hook
+        run: curl -s -X POST "$RENDER_HOOK"
+        env:
+          RENDER_HOOK: ${{ secrets.RENDER_HOOK }}
